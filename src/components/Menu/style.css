@@ -1,0 +1,52 @@
+.menu{
+    height: 100vh;
+    width: 230px;
+    min-width:230px;
+    padding: 0px 16px 24px;
+    background: rgb(244, 245, 247);
+    border-right: 1px solid rgb(223, 225, 230);
+    overflow: hidden auto;
+}
+.menu .project-name{
+    padding: 3px 0px 0px 10px;
+}
+.menu .singularity{
+    color: rgb(66, 82, 110);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1;
+}
+.menu .software-project{
+    color: rgb(94, 108, 132);
+    font-size: 13px;
+}
+.menu .menu-item{
+    border-radius: 3px;
+}
+.menu .menu-item.active,.menu .menu-item.active:hover{
+    background: rgb(235, 236, 240)!important;
+    color: rgb(0, 82, 204)!important;
+}
+.menu .menu-item:hover{
+    background: rgb(235, 236, 240);
+    color: black;
+}
+.menu .menu-item--icon{
+    margin-right: 15px;
+    font-size: 20px;
+}
+.menu-item--icon.active{
+    color: rgb(0, 82, 204);
+}
+.menu .menu-item--title{
+    padding-top: 2px;
+    font-size: 14px;
+}
+.menu-item--title.active{
+    color: rgb(0, 82, 204);
+}
+.menu .br-menu{
+    margin-top: 17px;
+    padding-top: 18px;
+    border-top: 1px solid rgb(193, 199, 208);
+}

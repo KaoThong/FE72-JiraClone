@@ -1,0 +1,96 @@
+.main-content{
+    display: flex;
+    margin: 26px -5px 0px;  
+}
+.main-content--col{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 5px;
+    min-height: 400px;
+    overflow-y: hidden;
+    width: 25%;
+    border-radius: 3px;
+    background: rgb(244, 245, 247);
+}
+.main-content--col-name{
+    padding: 13px 10px 17px;
+    text-transform: uppercase;
+    color: rgb(94, 108, 132);
+    font-size: 12.5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.main-content--col-number{
+    text-transform: lowercase;
+    font-size: 13px;
+    color: rgb(94, 108, 132);
+    white-space: no-wrap;
+}
+.main-content-item{
+    height: 400px;
+    overflow-y:scroll;
+    padding: 0px 5px;
+    margin-bottom: 5px;
+    overflow-anchor: none;
+    -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.main-content-item::-webkit-scrollbar {
+    display: none;
+  }
+
+.main-content-task{
+    display: block;
+    margin-bottom: 5px;
+}
+.main-content-task:last-child{
+    margin-bottom: 0    ;
+}
+.main-content-task--content{
+    padding: 10px;
+    border-radius: 3px;
+    background: rgb(255, 255, 255);
+    box-shadow: rgb(9 30 66 / 25%) 0px 1px 2px 0px;
+    transition: background 0.1s ease 0s;
+    cursor: pointer;
+    user-select: none;
+}
+.main-content-task--content:hover{
+    background: rgb(235, 236, 240);
+}
+.main-content .task-title{
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap; 
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    padding-bottom: 11px;
+    font-size: 15px;
+    line-height: 1.4;
+}
+.main-content-task--action{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.avatar-attributor{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 2px;
+}
+.main-content .attributor{
+    margin-left: -2px;
+    box-shadow: rgb(255 255 255) 0px 0px 0px 2px;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    background-image: url(https://i.ibb.co/7JM1P2r/picke-rick.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(235, 236, 240);
+}

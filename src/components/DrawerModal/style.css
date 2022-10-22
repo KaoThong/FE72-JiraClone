@@ -1,0 +1,49 @@
+.submit-btn-drawer{
+    margin-left: 10px;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 32px;
+    vertical-align: middle;
+    line-height: 1;
+    padding: 0px 12px;
+    white-space: nowrap;
+    border-radius: 3px;
+    transition: all 0.1s ease 0s;
+    appearance: none;
+    cursor: pointer;
+    user-select: none;
+    font-size: 14.5px;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 82, 204);
+    font-weight: 500;
+}
+.submit-btn-drawer:hover{
+    background: rgb(0, 94, 235);
+}
+.cancel-btn-drawer{
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 32px;
+    vertical-align: middle;
+    line-height: 1;
+    padding: 0px 12px;
+    white-space: nowrap;
+    border-radius: 3px;
+    transition: all 0.1s ease 0s;
+    appearance: none;
+    cursor: pointer;
+    user-select: none;
+    font-size: 14.5px;
+    background: rgb(255, 255, 255);
+    color: rgb(66, 82, 110);
+    font-weight: 500;
+}
+.cancel-btn-drawer:hover{
+    background: rgb(235, 236, 240);
+}

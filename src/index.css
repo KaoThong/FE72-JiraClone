@@ -1,0 +1,230 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "antd/dist/antd.css";
+@import "normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+:root {
+	--primary-color: #0747a6;
+}
+* {
+	box-sizing: border-box;
+}
+body {
+	line-height: 1.2;
+	font-size: 16px;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-font-smoothing: antialiased;
+}
+.jira {
+	height: 100vh;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	display: flex;
+}
+
+.title {
+	display: block;
+	padding-bottom: 5px;
+	color: rgb(94, 108, 132);
+	font-weight: 500;
+	font-size: 13px;
+}
+input,
+select {
+	height: 32px;
+	width: 100%;
+	padding: 0px 7px;
+	border-radius: 3px;
+	border: 1px solid rgb(223, 225, 230);
+	color: rgb(23, 43, 77);
+	background: rgb(244, 245, 247);
+	transition: background 0.1s ease 0s;
+	font-weight: 500;
+	font-size: 15px;
+	outline: none;
+	appearance: none;
+	overflow: visible;
+	line-height: 1.15;
+}
+input:focus {
+	background: rgb(255, 255, 255);
+	border: 1px solid rgb(76, 154, 255);
+	box-shadow: rgb(76 154 255) 0px 0px 0px 1px;
+}
+input:hover,
+select:hover {
+	background: rgb(235, 236, 240);
+}
+
+.component {
+	padding-top: 25px;
+
+	padding-right: 40px;
+	padding-left: 40px;
+}
+.breadcumb-text {
+	color: rgb(94, 108, 132);
+	font-size: 15px;
+}
+.breadcumb-divide {
+	margin: 0px 10px;
+	font-size: 18px;
+}
+.component-title {
+	padding: 6px 0px 15px;
+	font-size: 24px;
+
+	font-weight: 500;
+}
+.submit-btn {
+	margin-top: 30px;
+	display: inline-flex;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	justify-content: center;
+	height: 32px;
+	vertical-align: middle;
+	line-height: 1;
+	padding: 0px 12px;
+	white-space: nowrap;
+	border-radius: 3px;
+	transition: all 0.1s ease 0s;
+	appearance: none;
+	cursor: pointer;
+	user-select: none;
+	font-size: 14.5px;
+	color: rgb(255, 255, 255);
+	background: rgb(0, 82, 204);
+	font-weight: 500;
+}
+.submit-btn:hover {
+	background: rgb(0, 94, 235);
+}
+.cancel-btn{
+	display: inline-flex;
+    -webkit-box-align: center;
+	margin-top: 30px;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 32px;
+    vertical-align: middle;
+    line-height: 1;
+    padding: 0px 12px;
+    white-space: nowrap;
+    border-radius: 3px;
+    transition: all 0.1s ease 0s;
+    appearance: none;
+    cursor: pointer;
+    user-select: none;
+    font-size: 14.5px;
+    background: rgb(255, 255, 255);
+    color: rgb(66, 82, 110);
+    font-weight: 500;
+}
+.cancel-btn:hover{
+	background: rgb(235, 236, 240);
+}
+.ant-btn,
+.ant-btn-primary {
+	height: 32px;
+	vertical-align: middle;
+	line-height: 1;
+	padding: 0px 12px;
+	white-space: nowrap;
+	border-radius: 3px;
+	transition: all 0.1s ease 0s;
+	appearance: none;
+	cursor: pointer;
+	user-select: none;
+	font-size: 14.5px;
+	color: rgb(255, 255, 255);
+	background: rgb(0, 82, 204);
+	font-weight: 500;
+}
+.input-div {
+	display: inline-block;
+	height: 32px;
+	width: 100%;
+}
+.input-div:focus-visible {
+	outline: -webkit-focus-ring-color auto 1px;
+}
+.menu.biaEeH::-webkit-scrollbar-thumb {
+	border-radius: 99px;
+	background: rgb(223, 225, 230);
+}
+.menu::-webkit-scrollbar {
+	width: 8px;
+}
+.blue-check-icon {
+	color: rgb(98, 160, 206);
+}
+.high-icon {
+	color: #cf1317;
+}
+.medium-icon{
+	color: #e9494a;
+}
+.low-icon{
+	color: #2d8738;
+}
+.lowest-icon{
+	color: #65ba43;
+	
+}
+.bookmark-green-icon {
+	color: #65ba42;
+}
+
+.ant-select-single .ant-select-selector .ant-select-selection-search,
+.ant-select-show-search.ant-select:not(.ant-select-customize-input)
+	.ant-select-selector
+	input {
+	right: 0;
+	left:0;
+	outline: none !important;
+	border: none !important;
+}
+/* .ant-select.ant-select-focused.ant-select-show-search{
+	outline: none !important;
+	border: none !important;
+} */
+.ant-select-selection-search-input{
+	outline: none !important;
+	border: none !important;
+	padding-left: 10px!important;
+}
+.ant-select-selection-search-input:focus{
+	box-shadow: none;
+}
+/* XÓA BORDER THẰNG INPUT TRONG SELECT  */
+.ant-select-focused:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input) .ant-select-selector{
+	border:none!important;
+}
+.ant-avatar {
+	transition: transform 0.1s ease-in-out;
+	cursor: pointer;
+}
+.ant-avatar:hover {
+	transform: translateY(-5px);
+}
+.editor-text--below {
+	padding-top: 6px;
+	color: rgb(94, 108, 132);
+	font-size: 12.5px;
+	font-weight: 400;
+}
+.ant-drawer-header {
+	border-bottom: none;
+	padding-bottom: 0;
+}
+.normal-text{
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1.2;
+	color:rgb(94, 108, 132);
+
+}

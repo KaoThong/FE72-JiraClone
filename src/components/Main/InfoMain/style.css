@@ -1,0 +1,102 @@
+.info-main {
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
+	margin-top: 24px;
+}
+.info-search-container {
+	margin-right: 18px;
+	width: 160px;
+	position: relative;
+	display: inline-block;
+	height: 33px;
+}
+.info-search-icon {
+	position: absolute;
+	top: 8px;
+	left: 8px;
+	pointer-events: none;
+	color: rgb(94, 108, 132);
+	display: inline-block;
+	font-size: 15px;
+}
+.info-main .info-search {
+	padding: 0px 7px 0px 32px !important;
+}
+
+/* AVATAR ROW  */
+.avatar-row {
+	margin: 0px 12px 0px 2px;
+}
+/* .avatar-col {
+	display: inline-flex;
+	margin-left: -2px;
+	border-radius: 50%;
+	transition: transform 0.1s ease 0s;
+	cursor: pointer;
+	user-select: none;
+}
+.avatar-col:hover {
+	transform: translateY(-5px);
+}
+.avatar-item {
+	box-shadow: rgb(255 255 255) 0px 0px 0px 2px;
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	border-radius: 100%;
+	background-image: url(https://i.ibb.co/7JM1P2r/picke-rick.jpg);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: rgb(235, 236, 240);
+} */
+.info-btn {
+	display: inline-flex;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	justify-content: center;
+	height: 32px;
+	vertical-align: middle;
+	line-height: 1;
+	padding: 0px 12px;
+	white-space: nowrap;
+	border-radius: 3px;
+	transition: all 0.1s ease 0s;
+	appearance: none;
+	cursor: pointer;
+	user-select: none;
+	font-size: 14.5px;
+	background: rgb(255, 255, 255);
+	color: rgb(66, 82, 110);
+	font-weight: normal;
+	outline: none;
+}
+.info-btn:hover {
+	background: rgb(235, 236, 240);
+}
+.github-btn {
+	display: inline-flex;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	justify-content: center;
+	height: 32px;
+	vertical-align: middle;
+	line-height: 1;
+	padding: 0px 12px;
+	white-space: nowrap;
+	border-radius: 3px;
+	transition: all 0.1s ease 0s;
+	appearance: none;
+	cursor: pointer;
+	user-select: none;
+	font-size: 14.5px;
+	background: rgb(244, 245, 247);
+	color: rgb(66, 82, 110);
+	font-weight: normal;
+}
+.github-btn:hover {
+	background: rgb(235, 236, 240);
+}

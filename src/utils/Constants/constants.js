@@ -1,0 +1,10 @@
+export const OPEN_FORM_ADD_TASK = "drawerModal/OPEN_FORM_ADD_TAKS";
+export const GET_ALL_TASK_TYPE = "taskType/GET_ALL_TASK_TYPE";
+export const GET_ALL_PRIORITY = "priority/GET_ALL_PRIORITY";
+export const GET_STATUS_LIST = "status/GET_STATUS_LIST";
+export const GET_USER_BY_PROJECT_ID='user/GET_USER_BY_PROJECT_ID';
+export const CHANGE_TASK_MODAL='taskDetail/CHANGE_TASK_MODAL'
+export const CHANGE_ASSIGNESS='taskDetail/CHANGE_ASSIGNESS'
+export const REMOVE_USER_ASSIGN='taskDetail/REMOVE_USER_ASSIGN'
+export const UPDATE_TASK_DETAIL='taskDetail/UPDATE_TASK_DETAIL'
+export const SET_COMMENT_LIST='taskDetail/SET_COMMENT_LIST'
