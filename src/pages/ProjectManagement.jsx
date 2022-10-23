@@ -143,7 +143,7 @@ function ProjectManagement() {
       key: "members",
       render: (text, record, index) => {
         return (
-          <div>
+          <div className="lg:w-48">
             <Group maxCount={3}>
               <Popover
                 placement="top"
@@ -332,6 +332,7 @@ function ProjectManagement() {
         <Button onClick={clearAll}>Clear filters and sorters</Button>
       </Space>
       <Table
+        className="lg:h-full"
         rowKey={"id"}
         columns={columns}
         dataSource={data}

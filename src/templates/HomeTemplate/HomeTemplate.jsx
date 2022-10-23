@@ -5,24 +5,24 @@ import React from "react";
 import { Route } from "react-router-dom";
 
 function HomeTemplate(props) {
-	let { Component, ...restRoute } = props;
-	return (
-		<Route
-			{...restRoute}
-			render={(propsRoute) => {
-				return (
-					<div className="jira">
-						{/* Sider Bar  */}
-						<Sidebar />
-						{/* Menu */}
-						<Menu />
-						<Component {...propsRoute} />
-						<Modal />
-					</div>
-				);
-			}}
-		/>
-	);
+  let { Component, ...restRoute } = props;
+  return (
+    <Route
+      {...restRoute}
+      render={(propsRoute) => {
+        return (
+          <div className="jira">
+            {/* Sider Bar  */}
+            <Sidebar />
+            {/* Menu */}
+            <Menu />
+            <Component {...propsRoute} />
+            <Modal />
+          </div>
+        );
+      }}
+    />
+  );
 }
 
 export default HomeTemplate;
